@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  padding: 3rem 4rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.heading--primary {
+  font-family: "Barlow", sans-serif;
+  font-size: 5rem;
+}
+
+.heading--secondary {
+  font-family: "Overpass", sans-serif;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+
+.para {
+  font-family: "Overpass", sans-serif;
+  font-size: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: #ff4c68;
+  color: white;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-family: "Overpass", sans-serif;
+}
+
+.container {
+  padding: 2rem;
+  width: 50%;
+}
